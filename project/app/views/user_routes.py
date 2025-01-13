@@ -81,3 +81,7 @@ def home():
 @bp.route('/Event.html')  # Définir la route pour Event.html
 def event_page():
     return render_template('Event.html')
+
+@bp.route('/Events.html') 
+def events_calendar():
+    return render_template('Events.html')
