@@ -78,9 +78,9 @@ def contacts():
 def home():
     return render_template('Van.html')
 
-@bp.route('/Event.html')  # Définir la route pour Event.html
-def event_page():
-    return render_template('Event.html')
+@bp.route('/Formulaire_Event.html')  # Définir la route pour Event.html
+def event_formulaire():
+    return render_template('Formulaire_Event.html')
 
 @bp.route('/Events.html') 
 def events_calendar():
